@@ -27,7 +27,7 @@ A serverless, progressive web application (PWA) with React using a test-driven d
 - Scenario 2: User should see a list of suggestions when they search for a city.
   > Given the main page is open. When user starts typing in the city textbox, then the user should see a list of cities (suggestions) that match what they’ve typed.
 - Scenario 3: User can select a city from the suggested list.
-  > Given the user was typing “Dresden” in the city textbox and the list of suggested cities is showing, when the user selects a city from the list, then their city should be changed to that city (i.e., “Dresden, Germany”), and the user should receive a list of upcoming events in that city
+  > Given the user was typing “Dresden” in the city textbox and the list of suggested cities is showing, when the user selects a city from the list, then their city should be changed to that city (i.e., “Dresden, Germany”), and the list of suggestions should disappear, and the user should receive a list of upcoming events in that city
 
 ### FEATURE 2: SHOW/HIDE AN EVENT'S DETAILS
 
